@@ -366,3 +366,12 @@ justify-content: space-between;
       height: 10px;
       width: 10px;
   }
+
+  .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
+  }
+
+  .frame {
+      border-bottom:#EEEEEE;
+  }

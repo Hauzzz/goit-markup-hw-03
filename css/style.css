@@ -313,17 +313,32 @@ justify-content: space-between;
 
 
 
-.buttons_portfolio {
-    text-align: center;
-    justify-content: space-around;
-    list-style: none;
-    display: flex;
-    margin-left: 300px;
-    margin-right: 300px;
-    background-color: #F5F4FA;
-    border-radius: 10px;
-    font-family: Roboto;
+.portfolio_btns {
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
     
+    background: #F5F4FA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: 
+    #212121;
+    font-family: Raleway;
+    cursor: pointer;
+
+}
+
+.portfolio_btns :hover, .portfolio_btns :focus {
+    background-color: #2196F3;
+    color: #ffffff;
 }
 
 .list {

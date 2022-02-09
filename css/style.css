@@ -88,7 +88,10 @@ ul {
     
     
 }
-
+.nav + .nav {
+margin-left: 50px;
+}
+a{text-decoration: none;}
 .contacts_section {
     color: #757575;
     justify-content: space-between;
@@ -113,6 +116,9 @@ ul {
     
     
    
+}
+.contacts_section + .contacts_section {
+    margin-left: 50px;
 }
 
 .contacts_section:hover,.contacts_section:focus {
@@ -157,25 +163,30 @@ ul {
 }
 
 
-.button {
+.hero_btn {
     cursor: pointer;
-    color: #ffffff; 
     width: 200px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
     height: 50px;
-    font-size: 24px;
-    line-height: 2.5em;
-    
-    text-align: center;
-    cursor: pointer;
+    left: 700px;
+    top: 430px;
     background-color: #2196F3;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-    
-    
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+ 
+
+
+ 
+
     
    
+}
+.hero_btn :hover, .hero_btn :focus {
+    color: #2196F3;
 }
 .shapka {
     overflow: hidden;
@@ -201,7 +212,7 @@ justify-content: space-between;
 
 }
 
-.maintext_pros1 {
+.maintext_first {
     color: #757575;
     font-style: normal;
     font-weight: normal;

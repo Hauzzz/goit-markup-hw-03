@@ -22,7 +22,7 @@ body {
     display: flex;
     text-align: center;
     height: 80px;
-    
+    border-bottom: 1px solid var(--h_b_color);
 }
 .head_line  {
     
@@ -185,7 +185,8 @@ a{text-decoration: none;}
     top: 430px;
     background-color: var(--blue-color);
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15)
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
  
 
 
@@ -206,8 +207,8 @@ a{text-decoration: none;}
     background-color: var(--grey_color_s);
     width: 1200px;
     text-align: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 
@@ -217,7 +218,7 @@ a{text-decoration: none;}
 display: flex;
 text-align: center;
 justify-content: space-between;
-padding-bottom: 94px;
+
 
 
 }
@@ -230,8 +231,16 @@ padding-bottom: 94px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    width: 270px;
+    height: 75px;
+    left: 515px;
+    top: 800px;
+    text-align: left;
 }
 
+.capitaltext_pros{
+    text-align: left;
+}
 .mainpool_text {
     display: flex;
     text-align: center;
@@ -265,7 +274,7 @@ padding-bottom: 94px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
+
 }
 
 .team_stuff {
@@ -273,7 +282,7 @@ padding-bottom: 94px;
     text-align: center;
     justify-content: space-between;
     list-style: none;
-    padding-bottom: 94px;   
+  
 
 }
 
@@ -294,13 +303,7 @@ padding-bottom: 94px;
 
 
 
-.info_table {
-    background-color: var(--grey-color_s);
-    width: 1200px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-}
+
 
 .word_studiof {
     color: var(--white-color);
@@ -333,7 +336,6 @@ padding-bottom: 94px;
     color: var(--blue-color);
 }
 .nav_footer {
-    margin-left: 150px;
     color: var(--black-color);
     text-decoration: none;
     margin-top: 60px;
@@ -363,6 +365,8 @@ padding-bottom: 94px;
     color: var(--darkgrey-color);
     cursor: pointer;
     margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
 
 }
 .buttons_portfolio{
@@ -375,6 +379,13 @@ margin-right: 346px;
 .buttons_portfolio :hover, .buttons_portfolio :focus {
     background-color: var(--blue-color);
     color: var(--white-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
 }
 
 .list {
@@ -395,9 +406,12 @@ margin-right: 346px;
 }
 
 .info_table {
-    width: 1200px;
     background-color: var(--grey_color_s);
     padding-top: 60px;
+    padding-bottom: 60px;
+ 
+ 
+
 }
 
 .middlebar_section {
@@ -405,11 +419,11 @@ margin-right: 346px;
 }
  .pros_text {
     list-style: none;
+    
  }
 
  .footer_list {
     list-style: none;
-    margin-left: 150px;
  }
 
  .icon {
@@ -439,8 +453,18 @@ margin-right: 346px;
   }
 
   .team_card {
+    background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+  }
+
+  .cards-p {
+      padding-top: 20px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 20px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
   }
 
 
@@ -454,6 +478,13 @@ p{
     color: var(--grey-color);
 
     letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
 
   :root {
@@ -465,6 +496,7 @@ p{
     --grey_color_s: #2F303A;
     --light-grey_color: #F5F4FA;
     --slight-grey_color: #EEEEEE;
+    --h_b_color: #ECECEC;
   }
 
 .portfolio_cards {
@@ -478,3 +510,21 @@ p{
     margin-right: 24px;
 }
 
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.cards-t {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
